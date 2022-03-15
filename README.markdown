@@ -1,6 +1,9 @@
 # Python Code Repository for deterministic temporal-difference learning dynamic under partial observability
 Python implementation to create the figures used in publication.
 
+
+- Renewable Resource [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/wbarfuss/POLD/blob/main/plot04_RenewableResource.ipynb)
+
 - Zerosum Competition [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/wbarfuss/POLD/blob/main/plot06_ZeroSum.ipynb)
 
 
