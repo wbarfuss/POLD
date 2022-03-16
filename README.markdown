@@ -1,5 +1,7 @@
 # Code repository for deterministic temporal-difference learning dynamics under partial observability
 
+[![DOI](https://zenodo.org/badge/470242430.svg)](https://zenodo.org/badge/latestdoi/470242430)
+
 Python implementation to create the figures used in the publication. The deterministic learning dynamics are implemented in [.\agents\deterministic.py](https://github.com/wbarfuss/POLD/blob/main/agents/deterministic.py). The folder .\environments\ contains all test environments used. The notebook files execute the agent-environment interactions and plot the results. 
 
 ## How to use
