@@ -1,7 +1,7 @@
-# Python Code Repository for deterministic temporal-difference learning dynamics under partial observability
+# Python code repository for deterministic temporal-difference learning dynamics under partial observability
 Python implementation to create the figures used in publication.
 
-- Simple Coordination [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/wbarfuss/POLD/blob/main/plot01_SimpleCoordination.ipynb)
+- Simple Coordination [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/wbarfuss/POLD/blob/main/plot01_SimpleCoordination.ipynb) + comparison with batch algorithm [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/wbarfuss/POLD/blob/main/plot02_SimpleCoordinationBatch.ipynb)
 
 - Renewable Resource [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/wbarfuss/POLD/blob/main/plot04_RenewableResource.ipynb)
 
