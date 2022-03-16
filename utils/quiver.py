@@ -1,13 +1,9 @@
-'''
-Update / rewrite of quiverplot
-a new beginning . rock and roll.
-'''
 import numpy as np
 import matplotlib.pyplot as plt
 import itertools as it
 
-# from pyDOE import lhs
-from scipy.stats import qmc
+from pyDOE import lhs
+# from scipy.stats import qmc
 
 
 #%%
@@ -18,9 +14,9 @@ def _policies(dims, xinds, yinds, xval, yval, NrRandom):
     """
     N, C, M = dims
     # Xs = np.random.rand(NrRandom, N, C, M)  # random policies
-    # Xs = lhs(N*C*M, NrRandom).reshape(NrRandom, N, C, M)
-    sampler = qmc.LatinHypercube(d=N*C*M)
-    Xs = sampler.random(n=NrRandom).reshape(NrRandom, N, C, M)
+    Xs = lhs(N*C*M, NrRandom).reshape(NrRandom, N, C, M)
+    # sampler = qmc.LatinHypercube(d=N*C*M)
+    # Xs = sampler.random(n=NrRandom).reshape(NrRandom, N, C, M)
     Xs = Xs / Xs.sum(axis=-1, keepdims=True)  # properly normalised
     
     xi, xc, xa = xinds; xa_ = tuple(set(range(M)) - set([xa]))
