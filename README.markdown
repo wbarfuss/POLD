@@ -26,6 +26,6 @@ Python implementation to create the figures used in the publication. The determi
 ## Reference
 Barfuss W & Mann RP (2022) 
 *Modeling the effects of environmental and perceptual uncertainty using deterministic reinforcement learning dynamics with partial observability*
-Accepted for publication in Physical Review E
+Physical Review E 105, 3, 034409.
 
 
